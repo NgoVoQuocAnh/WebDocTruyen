@@ -1,0 +1,1 @@
+Sua Thong tin chi tiet truyen tranh
