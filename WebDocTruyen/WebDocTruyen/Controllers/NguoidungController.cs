@@ -47,7 +47,7 @@ namespace helloworld.Controllers
             NGUOIDUNG nd = db.NGUOIDUNGs.SingleOrDefault(n => n.Taikhoan == taikhoan && n.Matkhau == matkhau);
             if(nd!=null)
             {
-                ViewBag.thongbao = "Dang nhap thành công";
+                ViewBag.thongbao = "Dang nhap thành công";// chuyen qua view moi
                 return View();
             }
             ViewBag.thongbao = "Sai matkhau hoac tai khoan";
