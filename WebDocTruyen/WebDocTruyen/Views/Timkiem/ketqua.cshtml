@@ -4,7 +4,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<span style="color:blue">Kết quả</span>
+<span style="color:blue">Kết quả tìm kiếm</span>
 <span style="color:red">@ViewBag.thongbao</span>   
 <!DOCTYPE html>
 <html>
@@ -59,10 +59,6 @@
             display: inline-block;
         }
 
-        body#bg {
-            background-image: url("../../images/backgroundlast.jpg");
-            background-attachment: fixed;
-        }
     </style>
 </head>
 <body id="bg">
@@ -82,7 +78,7 @@
                     <img src="~/images/Spring17Preview.jpg" alt="img1" style="width:100%;">
                     <div class="carousel-caption">
                         <h3 style="color:aliceblue">Manga mùa xuân 2017</h3>
-                        <p style="color:aliceblue">Click để xem thông tin!</p>
+                        <p style="color:aliceblue">Xem thông tin</p>
                     </div>
                 </div>
 
@@ -90,7 +86,7 @@
                     <img src="~/images/springanime2017.jpg" alt="img2" style="width:100%;">
                     <div class="carousel-caption">
                         <h3 style="color:aliceblue">Top manga hiện tại</h3>
-                        <p style="color:aliceblue">Click để xem thông tin!</p>
+                        <p style="color:aliceblue">Xem thông tin</p>
                     </div>
                 </div>
 
@@ -98,7 +94,7 @@
                     <img src="~/images/Winter2016SeasonPreview.jpg" alt="img3" style="width:100%;">
                     <div class="carousel-caption">
                         <h3 style="color:aliceblue">Manga mùa đông 2017</h3>
-                        <p style="color:aliceblue">Click để xem thông tin!</p>
+                        <p style="color:aliceblue">Xem thông tin</p>
                     </div>
                 </div>
 
@@ -107,11 +103,11 @@
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Trước</span>
             </a>
             <a class="right carousel-control" href="#myCarousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Kế tiếp</span>
             </a>
             <div>
                 @foreach (var item in Model)
